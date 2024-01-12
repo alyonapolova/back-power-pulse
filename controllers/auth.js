@@ -1,15 +1,9 @@
 const controllerWrapper = require("../helpers/controllerWrapper");
 const HttpError = require("../helpers/httpError");
-const { registerSchema, User } = require("../models/user");
+const { User } = require("../models/user");
 const bcrypt = require("bcrypt");
 
 const register = async (req, res, next) => {
-  const { error } = registerSchema.validate(req.body);
-  if (error) {
-    const [{ path }] = error.details;
-    throw HttpError(400, `Missing required ${path} field`);
-  }
-
   const { email, password } = req.body;
   const user = await User.findOne({ email });
   if (user) {
