@@ -31,9 +31,15 @@ Backend для додатку про спорт та харчування.
 
 ## Технології
 
-<p >
-  <img width="50" src="./assets/img2.png">
-</p>
+- <p >
+    <img width="80" alt='express' src="./assets/img2.png">
+  </p>
+- <p >
+    <img width="80" alt='mongoDB' src="./assets/img3.png">
+  </p>
+- <p >
+    <img width="80" alt='cloudinary' src="./assets/img4.png">
+  </p>
 - ![express](./assets/img2.png)
 - ![mongoDB](./assets/img3.png)
 - ![cloudinary](./assets/img4.png)
