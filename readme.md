@@ -1,4 +1,4 @@
-#Power Pulse 2.0
+# Power Pulse 2.0
 
 Backend для додатку про спорт та харчування.
 
