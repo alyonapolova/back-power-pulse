@@ -32,16 +32,19 @@ Backend для додатку про спорт та харчування.
 ## Технології
 
 - <p >
-    <img width="80" alt='express' src="./assets/img2.png">
+    <img width="100" alt='node.js' src="./assets/img6.png">
   </p>
 - <p >
-    <img width="80" alt='mongoDB' src="./assets/img3.png">
+    <img width="100" alt='express' src="./assets/img2.png">
   </p>
 - <p >
-    <img width="80" alt='cloudinary' src="./assets/img4.png">
+    <img width="100" alt='mongoDB' src="./assets/img3.png">
   </p>
 - <p >
-    <img width="80" alt='nodemailer' src="./assets/img5.png">
+    <img width="100" alt='cloudinary' src="./assets/img4.png">
+  </p>
+- <p >
+    <img width="100" alt='nodemailer' src="./assets/img5.png">
   </p>
 
 ## Інструкції з запуску
@@ -49,6 +52,15 @@ Backend для додатку про спорт та харчування.
 - Встановіть залежності: `npm install`.
 - Налаштуйте змінні середовища у файлі `.env`, з прикладу `.env.example`.
 - Запустіть сервер: `npm run start`.
+
+## Команда
+
+- **Team-lead**
+  - [OlehKhv](https://github.com/OlehKhv)
+- **Розробник авторизації користувача:**
+  - [alyonapolova](https://github.com/alyonapolova)
+- **Розробник щоденника користувача:**
+  - [nicksolony](https://github.com/nicksolony)
 
 ## Корисні посилання
 
