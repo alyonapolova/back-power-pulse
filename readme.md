@@ -1,6 +1,6 @@
 # Power Pulse 2.0
 
-![Web-site main page](./src/assets/img1.png)
+![Web-site main page](./assets/img1.png)
 
 Backend для додатку про спорт та харчування.
 
