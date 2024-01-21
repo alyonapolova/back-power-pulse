@@ -35,7 +35,7 @@ Backend для додатку про спорт та харчування.
 
 ## Корисні посилання
 
-1.  **[Документація API проєкту: ](https://power-4vwy.onrender.com/api/v1/api-docs/):**
+1.  **[Документація API проєкту: ](https://power-4vwy.onrender.com/api/v1/api-docs/)**
     Перегляньте документацію для отримання інформації про доступні маршрути, параметри та приклади викликів.
-2.  **[GitHub Репозиторій - Frontend]: (https://github.com/SaltyUA/power-pulse-fs) :**
+2.  **[GitHub Репозиторій - Frontend: ] (https://github.com/SaltyUA/power-pulse-fs)**
     Ознайомтеся з вихідним кодом Frontend-частини проєкту, в якому ви знаходите веб-інтерфейс та відповідний клієнтський код.
