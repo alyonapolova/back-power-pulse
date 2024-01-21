@@ -26,20 +26,20 @@ Backend для додатку про спорт та харчування.
 
 ## Вимоги та Залежності
 
-- Node.js версії v18.16.0. [Скачай і встанови](https://nodejs.org/en/) її якщо необхідно.
+- [Node.js](https://nodejs.org/en/) версії v18.16.0.
 - npm для управління пакетами.
 
 ## Технології
 
-express (4.17.1): Фреймворк для розробки веб-додатків на Node.js.
-
-mongoose (8.0.3): Об'єктно-документний (ODM) middleware для MongoDB та Node.js.
+- ![express](./assets/img2.png)
+- ![mongoDB](./assets/img3.png)
+- ![cloudinary](./assets/img4.png)
 
 jsonwebtoken (9.0.2): Бібліотека для роботи з JSON Web Tokens (JWT) для автентифікації.
 
 bcrypt (5.1.1): Бібліотека для хешування паролів.
 
-cloudinary (1.41.2) та multer (1.4.5-lts.1): Для завантаження та керування мультимедійним вмістом.
+multer
 
 joi (17.11.0): Бібліотека для перевірки та валідації даних.
 
