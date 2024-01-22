@@ -13,6 +13,11 @@ const {
 const router = express.Router();
 
 router.post("/register", validateBody(registerSchema), authCtrl.register);
+
+router.get("/verify/:verificationToken", authCtrl.verifyEmail);
+router.post("/verify", authCtrl.resendEmail);
+
+
 router.post("/login", validateBody(loginSchema), authCtrl.login);
 router.get("/current", authenticate, authCtrl.current);
 router.patch(
