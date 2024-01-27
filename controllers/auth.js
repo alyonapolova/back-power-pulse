@@ -166,6 +166,13 @@ const uploadAvatar = async (req, res) => {
   res.json({ avatarURL: avatarURL });
 };
 
+const logout = async (req, res) => {
+  const { _id } = req.user;
+  await User.findByIdAndUpdate(_id, { token: "" });
+
+  res.json({ message: "Logout success" });
+};
+
 module.exports = {
   register: controllerWrapper(register),
   login: controllerWrapper(login),
@@ -174,4 +181,5 @@ module.exports = {
   uploadAvatar: controllerWrapper(uploadAvatar),
   verifyEmail: controllerWrapper(verifyEmail),
   resendEmail: controllerWrapper(resendEmail),
+  logout: controllerWrapper(logout),
 };

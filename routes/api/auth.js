@@ -17,7 +17,6 @@ router.post("/register", validateBody(registerSchema), authCtrl.register);
 router.get("/verify/:verificationToken", authCtrl.verifyEmail);
 router.post("/verify", authCtrl.resendEmail);
 
-
 router.post("/login", validateBody(loginSchema), authCtrl.login);
 router.get("/current", authenticate, authCtrl.current);
 router.patch(
@@ -33,4 +32,7 @@ router.put(
   validateFormats(parser.single("image")),
   authCtrl.uploadAvatar
 );
+
+router.delete("/logout", authenticate, authCtrl.logout);
+
 module.exports = router;
