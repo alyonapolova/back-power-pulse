@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use("/users", authRouter);
 app.use("/products", productsRouter);
-
+app.use("/exercises", exercisesRouter);
 app.use((req, res) => {
   res.status(404).json({ message: "Not found" });
 });
